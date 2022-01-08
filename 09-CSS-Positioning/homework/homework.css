@@ -7,6 +7,9 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
+    display: flex;
+    justify-content:center ;
+    align-items: center;
 
 }
 
@@ -14,12 +17,30 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 /* Ejercicio 2: Posicionar el header */
 
 /* Acá va tu código */
+#ejercicioDos{
+    display: none;
+    /* justify-content: space-around;
+    align-items:flex-start ; */
+}
 
 
 
 /* Ejercicio 3: */
 
 /* Acá va tu código */
+
+#containerImagen{
+    position: relative;
+}
+
+#containerOjetivo{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
 
 
 
